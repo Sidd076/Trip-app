@@ -1,0 +1,80 @@
+.home-component {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+    background-color: #ffffff;
+  }
+  
+  #total-trips {
+    font-size: 5rem;
+    color: #2C2C2C;
+    margin-bottom: 10px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+  }
+  
+  .trips {
+    font-size: 2rem;
+    color: #2C2C2C;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+  }
+  
+  #trip-logs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+  }
+  
+  #trip-logs span {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 20px;
+    color: #2C2C2C;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease-in-out;
+  }
+  
+  #trip-logs span:hover {
+    transform: translateY(-10px);
+    color: #ffffff;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+  }
+  
+  .icons {
+    margin-bottom: 10px;
+  }
+  
+  #progress-bar-container {
+    width: 80%;
+    height: 30px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    margin-top: 50px;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  #progress-bar {
+    height: 30px;
+    background-color: #2C2C2C;
+    border-radius: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: width 1s ease-in-out;
+  }
+  
+  #progress {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2rem;
+    color: #2C2C2C;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+  }
+  

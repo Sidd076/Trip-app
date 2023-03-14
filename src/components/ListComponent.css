@@ -1,0 +1,51 @@
+.list-component {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    
+  }
+  
+  .head-text {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th {
+    text-align: left;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px;
+    background-color: #ccc;
+    color: #000;
+  }
+  
+  td {
+    font-size: 16px;
+    padding: 10px;
+    border-bottom: 1px solid #888;
+  }
+  
+  .filter {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  
+  .filter-buttons {
+    margin-left: 10px;
+    color: #000;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .filter-buttons:hover {
+    text-decoration: underline;
+  }
+  
